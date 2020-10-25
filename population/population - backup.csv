@@ -1,0 +1,199 @@
+2018year,country,country,population,continent
+1,Afghanistan,阿富汗,37172386,Asia
+2,Albania,阿尔巴尼亚,2866376,Europe
+3,Algeria,阿尔及利亚,42228429,Africa
+4,Andorra,安道尔,77006,Europe
+5,Angola,安哥拉,30809762,Africa
+6,Antigua and Barbuda,安提瓜和巴布达,96286,America
+7,Argentina,阿根廷,44494502,America
+8,Armenia,美国,326687501,America
+9,Aruba,阿鲁巴,105845,America
+10,Australia,澳大利亚,24982688,Oceania
+11,Austria,奥地利,8840521,Europe
+12,Azerbaijan,阿塞拜疆,9939800,Asia
+13,Bahamas,巴哈马,385640,America
+14,Bahrain,巴林,1569439,Asia
+15,Bangladesh,孟加拉,161356039,Asia
+16,Barbados,巴巴多斯,286641,America
+17,Belarus,白俄罗斯,9483499,Europe
+18,Belgium,比利时,11433256,Europe
+19,Belize,伯利兹,383071,America
+20,Benin,贝宁,11485048,Africa
+21,Bhutan,不丹,"754,394",Asia
+22,Bolivia,玻利维亚,"11,353,142",America
+23,Bosnia and Herzegovina,波黑,"3,323,929",Europe
+24,Botswana,博茨瓦纳,"2,254,126",Africa
+25,Brazil,巴西,"209,469,333",America
+26,Brunei,文莱,"428,962",Asia
+27,Bulgaria,保加利亚,"7,025,037",Europe
+28,Burkina Faso,布基纳法索,"19,751,535",Africa
+29,Burma,缅甸,"53,708,395",Asia
+30,Burundi,布隆迪,"11,175,378",Africa
+31,Cabo Verde,佛得角,"543,767",Africa
+32,Cambodia,柬埔寨,"16,249,798",Asia
+33,Cameroon,喀麦隆,"25,216,237",Africa
+34,Canada,加拿大,"37,057,765",America
+35,Cape Verde,佛得角,"543,767",Africa
+36,Cayman Islands,开曼群岛,"64,174",America
+37,Central African Republic,中非,"4,666,377",Africa
+38,Chad,乍得,"15,477,751",Africa
+39,Chile,智利,"18,729,160",America
+40,China,中国,"1,392,730,000",Asia
+41,Colombia,哥伦比亚,"49,648,685",America
+42,Comoros,科摩罗,"832,322",Africa
+43,Congo (Brazzaville),刚果(布),"5,244,363",Africa
+44,Congo (Kinshasa),刚果(金),"84,068,091",Africa
+45,Costa Rica,哥斯达黎加,"4,999,441",America
+46,Cote d'Ivoire,科特迪瓦,"25,069,229",Africa
+47,Croatia,克罗地亚,"4,087,843",Europe
+48,Cuba,古巴,"11,338,138",America
+49,Curacao,库拉索,"159,800",America
+50,Cyprus,塞浦路斯,"1,189,265",Europe
+51,Czechia,捷克,"10,629,928",Europe
+52,Denmark,丹麦,"5,793,636",Europe
+53,Djibouti,吉布提,"958,920",Africa
+54,Dominica,多米尼克,"71,625",America
+55,Dominican Republic,多米尼加,"10,627,165",America
+56,East Timor,东帝汶,"1,267,972",Asia
+57,Ecuador,厄瓜多尔,"17,084,357",America
+58,Egypt,埃及,"98,423,595",Africa
+59,El Salvador,萨尔瓦多,"6,420,744",America
+60,Equatorial Guinea,赤道几内亚,"1,308,974",Africa
+61,Eritrea,厄立特里亚,"6,700,000",Africa
+62,Estonia,爱沙尼亚,"1,321,977",Europe
+63,Eswatini,斯威士兰,"1,136,191",Africa
+64,Ethiopia,埃塞俄比亚,"109,224,559",Africa
+65,Fiji,斐济,"883,483",Oceania
+66,Finland,芬兰,"5,515,525",Europe
+67,France,法国,"66,977,107",Europe
+68,French Guiana,圭亚那,"779,004",America
+69,Gabon,加蓬,"2,119,275",Africa
+70,Gambia,冈比亚,"2,280,102",Africa
+71,Georgia,格鲁吉亚,"3,726,549",Asia
+72,Germany,德国,"82,905,782",Europe
+73,Ghana,加纳,"29,767,108",Africa
+74,Greece,希腊,"10,731,726",Europe
+75,Greenland,格陵兰,"56,025",America
+76,Grenada,格林纳达,"111,454",America
+77,Guadeloupe,瓜德罗普,"439,000",America
+78,Guam,关岛,"165,768",Oceania
+79,Guatemala,危地马拉,"17,247,807",America
+80,Guinea,几内亚,"12,414,318",Africa
+81,Guinea-Bissau,几内亚比绍,"1,874,309",Africa
+82,Guyana,圭亚那,"779,004",America
+83,Haiti,海地,"11,123,176",America
+84,Holy See,梵蒂冈,800,Europe
+85,Honduras,洪都拉斯,"9,587,522",America
+86,Hungary,匈牙利,"9,775,564",Europe
+87,Iceland,冰岛,"352,721",Europe
+88,India,印度,"1,352,617,328",Asia
+89,Indonesia,印尼,"267,663,435",Asia
+90,Iran,伊朗,"81,800,269",Asia
+91,Iraq,伊拉克,"38,433,600",Asia
+92,Ireland,爱尔兰,"4,867,309",Europe
+93,Israel,以色列,"8,882,800",Asia
+94,Italy,意大利,"60,421,760",Europe
+95,Jamaica,牙买加,"2,934,855",America
+96,Japan,日本,"126,529,100",Asia
+97,Jordan,约旦,"9,956,011",Asia
+98,Kazakhstan,哈萨克斯坦,"18,272,430",Asia
+99,Kenya,肯尼亚,"51,393,010",Africa
+100,"Korea, South",韩国,"51,606,633",Asia
+101,Kosovo,科索沃,"2,000,000",Europe
+102,Kuwait,科威特,"4,137,309",Asia
+103,Kyrgyzstan,吉尔吉斯斯坦,"6,322,800",Asia
+104,Laos,老挝,"7,061,507",Asia
+105,Latvia,拉脱维亚,"1,927,174",Europe
+106,Lebanon,黎巴嫩,"6,848,925",Asia
+107,Liberia,利比里亚,"4,818,977",Africa
+108,Libya,利比亚,"6,678,567",Africa
+109,Liechtenstein,列支敦士登,"37,910",Europe
+110,Lithuania,立陶宛,"2,801,543",Europe
+111,Luxembourg,卢森堡,"607,950",Europe
+112,Madagascar,马达加斯加,"26,262,368",Africa
+113,Mainland China,中国,"1,392,730,000",Asia
+114,Malawi,马拉维,"18,143,315",Africa
+115,Malaysia,马来西亚,"31,528,585",Asia
+116,Maldives,马尔代夫,"515,696",Asia
+117,Mali,马里,"19,077,690",Africa
+118,Malta,马耳他,"484,630",Europe
+119,Mauritania,毛里塔尼亚,"4,403,319",Africa
+120,Mauritius,毛里求斯,"1,265,303",Africa
+121,Mexico,墨西哥,"126,190,788",America
+122,Moldova,摩尔多瓦,"2,706,049",Europe
+123,Monaco,摩纳哥,"38,682",Europe
+124,Mongolia,蒙古,"3,170,208",Asia
+125,Montenegro,黑山,"622,227",Europe
+126,Morocco,摩洛哥,"36,029,138",Africa
+127,Mozambique,莫桑比克,"29,495,962",Africa
+128,Namibia,纳米比亚,"2,448,255",Africa
+129,Nepal,尼泊尔,"28,087,871",Asia
+130,Netherlands,荷兰,"17,231,624",Europe
+131,New Zealand,新西兰,"4,841,000",Oceania
+132,Nicaragua,尼加拉瓜,"6,465,513",America
+133,Niger,尼日尔,"22,442,948",Africa
+134,Nigeria,尼日利亚,"195,874,740",Africa
+135,North Macedonia,北马其顿,"2,075,000",Europe
+136,Norway,挪威,"5,311,916",Europe
+137,Oman,阿曼,"4,829,483",Asia
+138,Pakistan,巴基斯坦,"212,215,030",Asia
+139,Panama,巴拿马,"4,176,873",America
+140,Papua New Guinea,巴布亚新几内亚,"8,606,316",Oceania
+141,Paraguay,巴拉圭,"6,956,071",America
+142,Peru,秘鲁,"31,989,256",America
+143,Philippines,菲律宾,"106,651,922",Asia
+144,Poland,波兰,"37,974,750",Europe
+145,Portugal,葡萄牙,"10,283,822",Europe
+146,Puerto Rico,波多黎各,"3,195,153",America
+147,Qatar,卡塔尔,"2,781,677",Asia
+148,Romania,罗马尼亚,"19,466,145",Europe
+149,Russia,俄罗斯,"144,478,050",Europe
+150,Rwanda,卢旺达,"12,301,939",Africa
+151,Saint Kitts and Nevis,圣基茨和尼维斯,"52,441",America
+152,Saint Lucia,圣卢西亚,"181,889",America
+153,Saint Vincent and the Grenadines,圣文森特和格林纳丁斯,"110,210",America
+154,San Marino,圣马力诺,"33,785",Europe
+155,Sao Tome and Principe,圣多美和普林西比,"211,028",Africa
+156,Saudi Arabia,沙特阿拉伯,"33,699,947",Asia
+157,Senegal,塞内加尔,"15,854,360",Africa
+158,Serbia,塞尔维亚,"6,982,604",Europe
+159,Seychelles,塞舌尔,"96,762",Africa
+160,Sierra Leone,塞拉利昂,"7,650,154",Africa
+161,Singapore,新加坡,"5,638,676",Asia
+162,Slovakia,斯洛伐克,"5,446,771",Europe
+163,Slovenia,斯洛文尼亚,"2,073,894",Europe
+164,Somalia,索马里,"15,008,154",Africa
+165,South Africa,南非,"57,779,622",Africa
+166,South Sudan,南苏丹,"10,975,920",Africa
+167,Spain,西班牙,"46,796,540",Europe
+168,Sri Lanka,斯里兰卡,"21,670,000",Asia
+169,Sudan,苏丹,"41,801,533",Africa
+170,Suriname,苏里南,"575,991",America
+171,Sweden,瑞典,"10,175,214",Europe
+172,Switzerland,瑞士,"8,513,227",Europe
+173,Syria,叙利亚,"16,906,283",Asia
+174,Taiwan,台湾,"23,600,000",Asia
+175,Tajikistan,塔吉克斯坦,"9,100,837",Asia
+176,Tanzania,坦桑尼亚,"56,318,348",Africa
+177,Thailand,泰国,"69,428,524",Asia
+178,The Bahamas,巴哈马,"385,640",America
+179,The Gambia,冈比亚,"2,280,102",Africa
+180,Timor-Leste,东帝汶,"1,267,972",Asia
+181,Togo,多哥,"7,889,094",Africa
+182,Trinidad and Tobago,特立尼达和多巴哥,"1,389,858",America
+183,Tunisia,突尼斯,"11,565,204",Africa
+184,Turkey,土耳其,"82,319,724",Europe
+185,Uganda,乌干达,"42,723,139",Africa
+186,Ukraine,乌克兰,"44,622,516",Europe
+187,United Arab Emirates,阿拉伯联合酋长国,"9,630,959",Asia
+188,United Kingdom,英国,"66,460,344",Europe
+189,Uruguay,乌拉圭,"3,449,299",America
+190,US,美国,"326,687,501",America
+191,Uzbekistan,乌兹别克斯坦,"32,955,400",Asia
+192,Venezuela,委内瑞拉,"28,870,195",America
+193,Vietnam,越南,"95,540,395",Asia
+194,West Bank and Gaza,约旦河西岸和加沙,"4,569,100",Asia
+195,Western Sahara,西撒哈拉,594200,Africa
+196,Yemen,也门,"28,498,687",Asia
+197,Zambia,赞比亚,"17,351,822",Africa
+198,Zimbabwe,津巴布韦,"14,439,018",Africa
