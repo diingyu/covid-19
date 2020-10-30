@@ -35,13 +35,11 @@ def sum_by_country(raw_data):
                 try:
                     confirmed += int(item[2])
                     cured += int(item[4])
-                    dead += int(item[3])
+                    dead += int(float(item[3]))
                 except ValueError:
                     save_data(item, 'error.txt')
                     print("error")
-                    # sys.exit(2)
-                    # print('data error:', item)
-                    # continue
+
         sum_data.append([c, confirmed, cured, dead])
         print(c, confirmed, cured, dead)
     return sum_data
