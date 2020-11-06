@@ -146,9 +146,14 @@ def make_json():
         file = 'list_data/' + date + '.txt'
         day_data = json.loads(open(file).read().replace('*', ''))
         for c in day_data:
-            data["data"][c[0]]["Confirmed"].append(c[1])
-            data["data"][c[0]]["Cured"].append(c[2])
-            data["data"][c[0]]["Dead"].append(c[3])
+            try:
+                data["data"][c[0]]["Confirmed"].append(c[1])
+                data["data"][c[0]]["Cured"].append(c[2])
+                data["data"][c[0]]["Dead"].append(c[3])
+            except:
+                print(c)
+                print(date)
+                sys.exit(2)
         if date == DATE:  # the last file has been handled, need to break
             break
     return data
