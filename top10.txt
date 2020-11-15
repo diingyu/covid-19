@@ -1,1 +1,1 @@
-["US", "India", "Brazil", "France", "Russia", "Spain", "Argentina", "United Kingdom", "Colombia", "Mexico"]
+["US", "India", "Brazil", "France", "Russia", "Spain", "United Kingdom", "Argentina", "Colombia", "Italy"]
