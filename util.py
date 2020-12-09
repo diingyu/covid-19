@@ -332,20 +332,25 @@ def make_top10_data():
 # spider the cdc newest data
 def data_of_cdc():
     url = "https://www.worldometers.info/coronavirus/"
-    r = requests.get(url)
-    if r.status_code == 200:
-        soup = BeautifulSoup(r.text, 'html.parser')
-        total = dict()
-        all_div = soup.find_all("div")
-        for div in all_div:
-            if "Last updated" in div.text:
-                total["updated"] = div.text[14:]
+    for i in range(3):
+        print("get the url for %d time..." % (i+1))
+        r = requests.get(url)
+        if r.status_code == 200:
+            soup = BeautifulSoup(r.text, 'html.parser')
+            total = dict()
+            all_div = soup.find_all("div")
+            for div in all_div:
+                if "Last updated" in div.text:
+                    total["updated"] = div.text[14:]
 
-        div_list = soup.find_all('div', {"id": "maincounter-wrap"})
-        for div in div_list:
-            total[div.find("h1").text] = div.find("span").text
-        # print(total)
-        return total
+            div_list = soup.find_all('div', {"id": "maincounter-wrap"})
+            for div in div_list:
+                total[div.find("h1").text] = div.find("span").text
+            # print(total)
+            return total
+    print("can not get the url:", url)
+    sys.exit(101)
+
 
 
 # ####    calculate the health index    ##############################
@@ -541,17 +546,21 @@ if __name__ == "__main__":
     # sys.exit(111)
 
     # step 1
+    print("step1...")
     save_data_from_raw(DATE)  #save list data from local raw data, saved as a list file
     # sys.exit(101)
 
     # step 2
+    print("step2...")
     add_record()  # add the DATE data to the csv files end
     # sys.exit(102)
 
     # step 3
+    print("step3...")
     make_map_data()  # make the map data
 
     # step 4
+    print("step4...")
     # get realtime data from "https://www.worldometers.info/coronavirus/"
     make_top10_data()  # make the top10 js data in data directory
 
