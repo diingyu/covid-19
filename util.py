@@ -14,8 +14,7 @@ from spider import sum_by_country, save_data
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-# import pymysql
-# from functools import reduce
+
 
 
 # this function can get save data from local raw data
