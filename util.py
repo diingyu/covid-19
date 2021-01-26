@@ -537,30 +537,27 @@ def update_record(the_date):
 
 
 if __name__ == "__main__":
-    # world_day_trend()
-    # sys.exit(11)
-    # delete_last_record()
-    # sys.exit(100)
-    # update_record('08-03-2020')
-    # sys.exit(111)
-
+    step = [True, True, True, True]
+    # step = [False, False, False, True]
     # step 1
-    print("step1...")
-    save_data_from_raw(DATE)  #save list data from local raw data, saved as a list file
-    # sys.exit(101)
+    if step[0]:
+        print("step1...")
+        save_data_from_raw(DATE)  #save list data from local raw data, saved as a list file
 
     # step 2
-    print("step2...")
-    add_record()  # add the DATE data to the csv files end
-    # sys.exit(102)
+    if step[1]:
+        print("step2...")
+        add_record()  # add the DATE data to the csv files end
 
     # step 3
-    print("step3...")
-    make_map_data()  # make the map data
+    if step[2]:
+        print("step3...")
+        make_map_data()  # make the map data
 
     # step 4
-    print("step4...")
-    # get realtime data from "https://www.worldometers.info/coronavirus/"
-    make_top10_data()  # make the top10 js data in data directory
+    if step[3]:
+        print("step4...")
+        # get realtime data from "https://www.worldometers.info/coronavirus/"
+        make_top10_data()  # make the top10 js data in data directory
 
     sys.exit(0)
