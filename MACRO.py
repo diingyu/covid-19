@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 import json
 
 
-LAST_DATE = datetime(2021, 1, 25)
+LAST_DATE = datetime(2021, 2, 1)
 DATE = LAST_DATE.strftime('%m-%d-%Y')
 
 
