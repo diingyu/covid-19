@@ -16,7 +16,6 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 
-
 # this function can get save data from local raw data
 def save_data_from_raw(the_date):
     f = open('raw/'+the_date+'.csv')
@@ -24,10 +23,10 @@ def save_data_from_raw(the_date):
     list_data.pop(0)
     rawData = list()
     for item in list_data:
-        str = item.replace(', ','  ')
-        str = str.replace('\"','')
-        temp = str.split(',')
-        rawData.append([temp[3].replace('  ',', '), temp[4], temp[7], temp[8], temp[9]])
+        s = item.replace(', ', '  ')
+        s = s.replace('\"', '')
+        temp = s.split(',')
+        rawData.append([temp[3].replace('  ', ', '), temp[4], temp[7], temp[8], temp[9]])
     data = sum_by_country(rawData)
     save_data(data, 'list_data/' + DATE + '.txt')
 
@@ -351,7 +350,6 @@ def data_of_cdc():
     sys.exit(101)
 
 
-
 # ####    calculate the health index    ##############################
 # ####    this function return a dict which key:value are
 # ####    "country": ["China", "Singapore", ... ]
@@ -537,6 +535,8 @@ def update_record(the_date):
 
 
 if __name__ == "__main__":
+    # delete_last_record()
+    # exit(1)
     step = [True, True, True, True]
     # step = [False, False, False, True]
     # step 1
